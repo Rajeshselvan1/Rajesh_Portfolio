@@ -1,56 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-    <header>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="Chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Form and Table</title>
-    </header>    
-<body>
-    <h1><a href="index.html">Rajesh Selvan Ananth T</a></h1>
-    <h2>Web Developer</h2>
-    <Form>
-        <Table>
-            <tr>
-                <td>
-                    <label for="Name">Name</label>
-                </td>
-                <td>
-                    <input type="text" name="Name" id="Name" placeholder="Enter your name">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="Email">Email</label>
-                </td>   
-                <td>
-                    <input type="email" name="Email" id="Email" placeholder="Enter your email">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="Message">Message</label>
-                </td>
-                <td>
-                    <textarea name="Message" id="Message" placeholder="Enter your message"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+</header>
 
-                </td>
-                <td>
-                    <input type="submit" value="Submit">
-                </td>
-            </tr>
-        </Table>
-        <p>
-            Social Media
-            <a href="https://www.linkedin.com/in/rajesh-selvan-0b593697/" target="_blank">LinkedIn</a>
-            <a href="https://www.instagram.com/rajesh_selvan_/" target="_blank">Instagram</a>
-        </p>
-    
-        <p>&copy; All right reserved to <b>Rajesh Selvan Ananth T</b></p>
-    </Form>
+<body>
+    <div class="container">
+        <div class="Section-one">
+            <h1 class="Section-one__name">Rajesh Selvan Ananth T</h1>
+            <p class="Section-one__role">Entrepreneur</p>
+            <a class="Section-one__contact" href="index.html">Home</a>
+
+        </div>
+        <div class = "Contact-Form">
+        <Form>
+            <Table>
+                <tr>
+                    <td>
+                        <label for="Name">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="Name" id="Name" placeholder="Enter your name" class="Contact-Form___Input">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" name="Email" id="Email" placeholder="Enter your email" class="Contact-Form___Input">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Message">Message</label>
+                    </td>
+                    <td>
+                        <textarea name="Message" id="Message" placeholder="Enter your message" class="Contact-Form___Textarea"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <input type="submit" value="Submit" class="Contact-Form___Submit">
+                    </td>
+                </tr>
+            </Table>
+        </Form>
+        <div class ="Section-five">
+            <p class ="Section-five__title">
+                Social Media
+                <a href="https://www.linkedin.com/in/rajesh-selvan-0b593697/" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/rajesh_selvan_/" target="_blank">Instagram</a>
+            </p>
+            <p class = "Section-five__desc">
+                &copy; All right reserved to <b>Rajesh Selvan Ananth T</b>
+            </p>
+        </div>
+        
+    </div>    
 </body>
+
 </html>
